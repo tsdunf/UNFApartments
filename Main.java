@@ -44,6 +44,7 @@ public class Main extends Application {
 	
 	public void displaySearchForm (Scene primary) {
 		SearchForm formPage = new SearchForm();   
+		/** this code is unmodified from original University of Wisconsin school project*/
 		VBox form = (VBox) formPage.getNode();
 		Button submitButton = new Button("Submit");
 		submitButton.setOnAction(e -> {
