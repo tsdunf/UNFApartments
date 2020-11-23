@@ -30,7 +30,7 @@ public class SearchForm extends Main{
 		metadata.setPromptText("meta-data");
 		return metadata;
 	}
-
+ /** code beyond here has not been modified from original University of Wisconsin school project */
 	public TextField getQuestion() {
 		question.setPromptText("question");
 		return question;
